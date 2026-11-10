@@ -15,22 +15,23 @@
 <tr><td>Evidencija prihvatanja: koju verziju Uslova i Politike privatnosti si prihvatio/la i kada</td><td>Dokaz da si prihvatio/la uslove i ponovni upit kad se promene</td></tr>
 <tr><td>PRO status i identifikatori kupovine</td><td>Otključavanje PRO funkcija. Nikad ne vidimo podatke o kartici</td></tr>
 <tr><td>Push token i podešavanja obaveštenja</td><td>Pozivi u dvoboj, podsetnici, nedeljni izveštaj</td></tr>
-<tr><td>Analitika i dijagnostika: događaji u aplikaciji, ekrani, model uređaja, verzija OS-a i aplikacije, izveštaji o padu, ID korisnika</td><td>Poboljšanje aplikacije i ispravka grešaka. Za izveštaje o padu ne koristimo email ni IP adresu</td></tr>
-<tr><td>AI zahtevi (PRO i kupljeni krediti): cilj, oprema, sažetak istorije treninga i tekst koji pošalješ za plan ili nedeljni pregled</td><td>Pravljenje AI plana ili pregleda</td></tr>
+<tr><td>Analitika korišćenja, samo ako dozvoliš (pitamo pri prvom pokretanju, menja se u Podešavanja → Privatnost): događaji u aplikaciji, ekrani, model uređaja, verzija OS-a i aplikacije, merenja performansi, nasumični ID naloga</td><td>Poboljšanje aplikacije. Ništa se ne šalje našem provajderu analitike dok ne pristaneš, a prestaje kad je isključiš</td></tr>
+<tr><td>Izveštaji o padovima (uvek uključeni): greške i padovi sa modelom uređaja, verzijom OS-a i aplikacije</td><td>Ispravka grešaka i stabilnost aplikacije. Ne sadrže email, ime ni IP adresu i nisu povezani sa tvojim nalogom osim ako dozvoliš analitiku</td></tr>
+<tr><td>AI zahtevi (PRO i kupljeni krediti), šalju se tek kad pristaneš u aplikaciji: cilj, nivo, oprema, broj dana, povrede ili ograničenja i beleške koje upišeš, nedavne najbolje serije; za nedeljni pregled i treninzi, vežbe i serije iz prošle nedelje, skorašnji napredak i nazivi tvojih planova</td><td>Pravljenje AI plana ili pregleda. Pristanak možeš da povučeš bilo kada u Podešavanja → Privatnost. Beležimo i da si pristao (verzija i vreme)</td></tr>
 </table>
 <p>Ne prikupljamo lokaciju, kontakte, fotografije, reklamni identifikator, niti podatke iz Apple Health ili Health Connect, i ne koristimo podatke za reklame niti ih prodajemo.</p>
 
 <h2>2. Pravni osnov</h2>
-<p>Izvršenje ugovora sa tobom (pružanje aplikacije), tvoja saglasnost (opcioni podaci o zdravlju kao težina i pol, push obaveštenja; saglasnost možeš da povučeš brisanjem podataka, isključivanjem obaveštenja ili brisanjem naloga) i naš legitimni interes za bezbednost, sprečavanje zloupotreba i poboljšanje aplikacije.</p>
+<p>Izvršenje ugovora sa tobom (pružanje aplikacije), tvoja saglasnost (analitika korišćenja, slanje podataka AI provajderu, opcioni podaci o zdravlju kao težina i pol, push obaveštenja; saglasnost možeš da povučeš u Podešavanja → Privatnost, brisanjem podataka, isključivanjem obaveštenja ili brisanjem naloga) i naš legitimni interes za bezbednost, sprečavanje zloupotreba i ispravku padova.</p>
 
 <h2>3. Ko prima podatke (obrađivači)</h2>
 <ul>
 <li><b>Supabase</b> – baza, autentifikacija, serverske funkcije i hosting podataka naloga.</li>
-<li><b>PostHog (EU region)</b> – analitika korišćenja.</li>
-<li><b>Sentry</b> – izveštaji o padovima i greškama, samo uz ID korisnika.</li>
+<li><b>PostHog (EU region)</b> – analitika korišćenja, samo ako dozvoliš. Naš server PostHog-u šalje i broj tokena i cenu svakog AI zahteva zajedno sa ID-jem naloga, nikada tekst, radi praćenja troškova.</li>
+<li><b>Sentry</b> – izveštaji o padovima i greškama; ID naloga se dodaje samo ako dozvoliš analitiku.</li>
 <li><b>RevenueCat</b> – upravljanje pretplatama i kupovinama, zajedno sa Apple App Store i Google Play koji obrađuju plaćanje.</li>
 <li><b>Expo (push servis), Apple i Google</b> – isporuka push obaveštenja; Apple i Google omogućavaju i prijavu.</li>
-<li><b>Anthropic</b> – obrađuje AI zahteve. Šalje se samo ono što je potrebno za zahtev, bez emaila i korisničkog imena. Anthropic po svojim komercijalnim uslovima ne koristi API ulaze za treniranje modela.</li>
+<li><b>Anthropic</b> – obrađuje AI zahteve, tek kad pristaneš. Šalje se samo ono što je potrebno za zahtev, bez emaila i korisničkog imena. Anthropic po svojim komercijalnim uslovima ne koristi API ulaze za treniranje modela.</li>
 </ul>
 <p>Neki od njih su van Srbije i EU/EEA (na primer u SAD). U tom slučaju oslanjamo se na standardne ugovorne klauzule ili jednake garancije. Podatke možemo otkriti i kada to zakon zahteva.</p>
 

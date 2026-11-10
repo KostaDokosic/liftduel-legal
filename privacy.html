@@ -15,22 +15,23 @@
 <tr><td>Acceptance record: which version of the Terms and Privacy Policy you accepted and when</td><td>Proof that you accepted the terms, and asking you again when they change</td></tr>
 <tr><td>Subscription status (PRO), purchase identifiers</td><td>Unlock PRO features. We never see your card or store payment details</td></tr>
 <tr><td>Push notification token, notification preferences</td><td>Duel invitations, reminders, weekly report</td></tr>
-<tr><td>Usage analytics and diagnostics: app events, screens, device model, OS version, app version, crash reports, user id</td><td>Improve the app and fix crashes. We do not use email or IP address for crash reports</td></tr>
-<tr><td>AI requests (PRO and purchased credits): your goal, equipment, training history summary and the text you send to generate a plan or weekly review</td><td>Produce the AI plan or review</td></tr>
+<tr><td>Usage analytics, only if you allow it (asked on first start, changeable in Settings → Privacy): app events, screens, device model, OS version, app version, performance traces, random account id</td><td>Improve the app. Nothing is sent to our analytics provider until you agree, and it stops when you switch it off</td></tr>
+<tr><td>Crash reports (always on): errors and crashes with device model, OS version and app version</td><td>Fix bugs and keep the app stable. They contain no email, name or IP address and are not linked to your account unless you allow analytics</td></tr>
+<tr><td>AI requests (PRO and purchased credits), sent only after you agree in the app: your goal, level, equipment, days, injuries or limits and notes you type, recent best sets; for the weekly review also last week's workouts, exercises and sets, recent progress and the names of your plans</td><td>Produce the AI plan or review. You can withdraw your agreement at any time in Settings → Privacy. We also record that you agreed (version and time)</td></tr>
 </table>
 <p>We do not collect your location, contacts, photos, advertising identifier, or data from Apple Health or Google Health Connect, and we do not use data for advertising or sell it.</p>
 
 <h2>2. Legal bases</h2>
-<p>Performing our contract with you (providing the app), your consent (optional health-related data such as body weight and sex, push notifications; you can withdraw at any time by removing the data, turning notifications off or deleting your account), and our legitimate interest in security, abuse prevention and improving the app.</p>
+<p>Performing our contract with you (providing the app), your consent (usage analytics, sending your data to the AI provider, optional health-related data such as body weight and sex, push notifications; you can withdraw at any time in Settings → Privacy, by removing the data, turning notifications off or deleting your account), and our legitimate interest in security, abuse prevention and fixing crashes.</p>
 
 <h2>3. Who receives data (processors)</h2>
 <ul>
 <li><b>Supabase</b> – database, authentication, file functions and hosting of your account data.</li>
-<li><b>PostHog (EU region)</b> – product analytics.</li>
-<li><b>Sentry</b> – crash and error reports, identified by user id only.</li>
+<li><b>PostHog (EU region)</b> – product analytics, only if you allow it. Our server also sends PostHog the token count and cost of each AI request together with your account id, never the text, to monitor cost.</li>
+<li><b>Sentry</b> – crash and error reports; your account id is attached only if you allow analytics.</li>
 <li><b>RevenueCat</b> – subscription and purchase management, together with Apple App Store and Google Play who process the payment.</li>
 <li><b>Expo (push service), Apple and Google</b> – delivery of push notifications; Apple and Google also provide sign-in.</li>
-<li><b>Anthropic</b> – processes AI requests. Only the data needed for the request is sent, not your email or username. Anthropic does not use API inputs to train its models under its commercial terms.</li>
+<li><b>Anthropic</b> – processes AI requests, only after you agree. Only the data needed for the request is sent, not your email or username. Anthropic does not use API inputs to train its models under its commercial terms.</li>
 </ul>
 <p>Some of these providers are outside Serbia and the EU/EEA (for example the United States). Where this happens we rely on their standard contractual clauses or equivalent safeguards. We may also disclose data when the law requires it.</p>
 
