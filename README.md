@@ -1,6 +1,6 @@
-# LiftDuel legal pages
+# LiftDuels legal pages
 
-Privacy Policy, Terms of Use and account deletion page of the LiftDuel app (English and Serbian), served by GitHub Pages:
+Privacy Policy, Terms of Use and account deletion page of the LiftDuels app (English and Serbian), served by GitHub Pages:
 
 - https://kostadokosic.github.io/liftduel-legal/privacy.html (`sr/privacy.html`)
 - https://kostadokosic.github.io/liftduel-legal/terms.html (`sr/terms.html`)
