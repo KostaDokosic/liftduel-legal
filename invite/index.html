@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>LiftDuel invite</title>
+<!--
+  Friend invite landing page (LDK-91, docs/invites.md). Static, no tracking, no external requests.
+  Publish it next to the legal pages: https://kostadokosic.github.io/liftduel-legal/invite.html?u=<username>
+-->
+<style>
+  :root { color-scheme: dark light; }
+  * { box-sizing: border-box; }
+  body { margin: 0; min-height: 100vh; display: flex; align-items: center; justify-content: center; padding: 24px; font: 16px/1.5 -apple-system, system-ui, "Segoe UI", Roboto, sans-serif; background: #0b0b0c; color: #f4f4f5; }
+  main { width: 100%; max-width: 420px; text-align: center; }
+  h1 { font-size: 26px; line-height: 1.2; margin: 0 0 8px; }
+  p { margin: 0 0 24px; color: #a1a1aa; }
+  .name { color: #f97316; word-break: break-word; }
+  a.btn { display: block; padding: 14px 18px; margin: 0 0 12px; border-radius: 12px; font-weight: 700; text-decoration: none; }
+  .primary { background: #f97316; color: #fff; }
+  .secondary { background: #27272a; color: #f4f4f5; }
+  .small { font-size: 13px; color: #71717a; margin-top: 20px; }
+  [hidden] { display: none !important; }
+  @media (prefers-color-scheme: light) { body { background: #fafafa; color: #18181b; } .secondary { background: #e4e4e7; color: #18181b; } p { color: #52525b; } }
+</style>
+</head>
+<body>
+<main>
+  <h1 id="title"></h1>
+  <p id="lead"></p>
+  <a id="open" class="btn primary" href="#"></a>
+  <a id="ios" class="btn secondary" href="https://apps.apple.com/app/id6825331857"></a>
+  <a id="android" class="btn secondary" href="#"></a>
+  <p id="hint" class="small"></p>
+</main>
+<script>
+(function () {
+  var PACKAGE = 'com.kostadokosicsteam.gymduels';
+  var text = {
+    en: { title: function (n) { return n ? n + ' invited you to LiftDuel' : 'Join me on LiftDuel'; }, lead: 'Train, compare every session and challenge friends to duels.', open: 'Open in the app', ios: 'Get it on the App Store', android: 'Get it on Google Play', hint: 'New to LiftDuel? Install the app, then open this link again to send the friend request.' },
+    sr: { title: function (n) { return n ? n + ' te poziva na LiftDuel' : 'Pridruži mi se na LiftDuel-u'; }, lead: 'Treniraj, poredi svaki trening i izazivaj prijatelje na dvoboje.', open: 'Otvori u aplikaciji', ios: 'Preuzmi sa App Store-a', android: 'Preuzmi sa Google Play-a', hint: 'Prvi put na LiftDuel-u? Instaliraj aplikaciju, pa ponovo otvori ovaj link da pošalješ zahtev za prijateljstvo.' }
+  };
+  var lang = (navigator.language || 'en').toLowerCase().indexOf('sr') === 0 ? 'sr' : 'en';
+  var t = text[lang];
+  document.documentElement.lang = lang;
+  var name = (new URLSearchParams(location.search).get('u') || '').trim().slice(0, 24);
+  var title = document.getElementById('title');
+  title.textContent = t.title(name);
+  document.title = t.title(name);
+  document.getElementById('lead').textContent = t.lead;
+  var open = document.getElementById('open');
+  open.textContent = t.open;
+  open.href = name ? 'gymduels://invite/' + encodeURIComponent(name) : 'gymduels://';
+  var ios = document.getElementById('ios');
+  var android = document.getElementById('android');
+  ios.textContent = t.ios;
+  android.textContent = t.android;
+  // The invite travels through the Play Store as the install referrer (read once by the app after the first launch).
+  var referrer = name ? '&referrer=' + encodeURIComponent('invite=' + name) : '';
+  android.href = 'https://play.google.com/store/apps/details?id=' + PACKAGE + referrer;
+  document.getElementById('hint').textContent = t.hint;
+  var ua = navigator.userAgent || '';
+  var isIos = /iPhone|iPad|iPod/i.test(ua);
+  var isAndroid = /Android/i.test(ua);
+  ios.hidden = isAndroid;
+  android.hidden = isIos;
+  if (!isIos && !isAndroid) open.hidden = true; // a computer cannot open the app
+})();
+</script>
+</body>
+</html>
