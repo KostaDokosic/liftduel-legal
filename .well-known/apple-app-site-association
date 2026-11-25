@@ -1,0 +1,13 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": ["4U2N3CD98M.com.kostadokosicsteam.gymduels"],
+        "components": [
+          { "/": "/invite" },
+          { "/": "/invite/*" }
+        ]
+      }
+    ]
+  }
+}
