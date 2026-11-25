@@ -1,0 +1,490 @@
+{
+  "lang": "en",
+  "common": {
+    "brand": "LiftDuels",
+    "skipLink": "Skip to content",
+    "nav": {
+      "features": "Features",
+      "duels": "Duels",
+      "pro": "PRO",
+      "faq": "FAQ",
+      "gyms": "For gyms",
+      "download": "Download",
+      "language": "Srpski",
+      "menuOpen": "Open menu",
+      "menuClose": "Close menu"
+    },
+    "stores": {
+      "appStoreLabel": "Download on the App Store",
+      "appStoreHref": "https://apps.apple.com/app/id6825331857",
+      "androidLabel": "Android: coming soon",
+      "androidNote": "The Android app is in closed testing."
+    },
+    "cookieNote": "No cookies, no trackers on this site.",
+    "footer": {
+      "tagline": "Same workout. Two phones. One winner.",
+      "columns": {
+        "product": "Product",
+        "company": "Company",
+        "legal": "Legal"
+      },
+      "links": {
+        "home": "Home",
+        "gyms": "For gyms",
+        "support": "Support",
+        "privacy": "Privacy Policy",
+        "terms": "Terms of Use",
+        "deleteAccount": "Delete your account"
+      },
+      "contactLabel": "Contact",
+      "contactEmail": "support@liftduels.app",
+      "ageNote": "LiftDuels is for people aged 16 and over.",
+      "healthNote": "LiftDuels is for training and fitness, not medical advice. Talk to a doctor before starting a new training program.",
+      "copyright": "LiftDuels"
+    },
+    "breadcrumbs": {
+      "home": "Home",
+      "gyms": "For gyms"
+    }
+  },
+  "landing": {
+    "meta": {
+      "title": "LiftDuels: Workout Tracker and Strength Duels",
+      "description": "A fast gym log you can use offline. Log sets in seconds, then challenge a friend to a strength duel and watch the score change set by set.",
+      "ogTitle": "LiftDuels: log your workout, challenge a friend",
+      "ogDescription": "Same workout. Two phones. One winner. A fast gym log with live strength duels, streaks, challenges and a muscle recovery map.",
+      "twitterTitle": "LiftDuels: workout tracker with strength duels",
+      "twitterDescription": "Log every set in seconds. Challenge a friend to the same workout and see who wins."
+    },
+    "sections": [
+      {
+        "id": "hero",
+        "eyebrow": "Workout tracker for the gym",
+        "headline": "Same workout. Two phones. One winner.",
+        "subhead": "LiftDuels is a fast gym log with a competitive side. Log every set in seconds, then challenge a friend and watch the score change set by set.",
+        "cta": {
+          "label": "Download on the App Store",
+          "href": "https://apps.apple.com/app/id6825331857"
+        },
+        "ctaSecondary": {
+          "label": "Android: coming soon",
+          "disabled": true
+        },
+        "proofLine": "Free to use. Logging works offline. English and Serbian.",
+        "image": {
+          "screenshot": "active-duel",
+          "alt": "LiftDuels duel screen: two players, the live score and each set of the same workout side by side."
+        }
+      },
+      {
+        "id": "tagline",
+        "headline": "Log the set. Send the challenge. See who wins."
+      },
+      {
+        "id": "how-it-works",
+        "headline": "From first set to first duel",
+        "subhead": "Three steps, no setup marathon.",
+        "cards": [
+          {
+            "step": "1",
+            "title": "Log your workout",
+            "text": "Start from a plan, a ready made program or an empty workout. Add sets, reps and weight in seconds. The rest timer runs for you.",
+            "screenshot": "active-workout",
+            "alt": "A workout in progress with weight and reps for each set and a rest timer."
+          },
+          {
+            "step": "2",
+            "title": "Invite a friend",
+            "text": "Share your invite link. When your friend accepts, you are friends and can challenge each other to duels.",
+            "screenshot": "wall",
+            "alt": "The Wall with workouts from friends, each with a Start and a Copy to Plans button."
+          },
+          {
+            "step": "3",
+            "title": "Start a duel",
+            "text": "Pick a workout and challenge your friend to it. You both train the same exercises and the score updates after every set.",
+            "screenshot": "duel",
+            "alt": "Duel setup screen where you choose the workout and the friend you challenge."
+          }
+        ]
+      },
+      {
+        "id": "features",
+        "headline": "A gym log that keeps up with you",
+        "subhead": "Everything you need between the first warm up and the last set.",
+        "cards": [
+          {
+            "title": "Sets in seconds",
+            "text": "Weight, reps, warm up sets and cardio blocks. A rest timer you can shorten or extend by 15 seconds. Logging works without internet.",
+            "screenshot": "active-workout",
+            "alt": "Set rows with weight and reps steppers and a running rest timer."
+          },
+          {
+            "title": "Plans and ready made programs",
+            "text": "Build your own plans or start from a ready made program. Browse an exercise library with images.",
+            "screenshot": "home",
+            "alt": "Home screen with a start workout list: a duel, an empty workout and plans."
+          },
+          {
+            "title": "Suggestions from your own history",
+            "text": "LiftDuels suggests the weight and reps for your next set from what you did before. It never changes a plan or a workout on its own.",
+            "screenshot": "active-workout-2",
+            "alt": "A workout screen showing a suggested weight and reps for the next set."
+          },
+          {
+            "title": "Separate history per machine",
+            "text": "Add an equipment label, like a brand or a gym, and each machine keeps its own history.",
+            "screenshot": "active-duel",
+            "alt": "An exercise card with an Add equipment label button."
+          },
+          {
+            "title": "Statistics and records",
+            "text": "See your best sets, records and progress for every exercise.",
+            "screenshot": "exercises-statitstics",
+            "alt": "Exercise statistics with best sets and records."
+          },
+          {
+            "title": "Widgets on your home screen",
+            "text": "Streak, this week and this month, one glance away without opening the app.",
+            "screenshot": "streaks",
+            "alt": "Streak card showing days in a row, best streak and points."
+          }
+        ]
+      },
+      {
+        "id": "duels",
+        "eyebrow": "Duels",
+        "headline": "Challenge a friend to the same workout",
+        "subhead": "Two friends train the same exercises at the same time. Each logs their own sets. The score changes after every set.",
+        "bullets": [
+          "Watch your friend's sets appear next to yours while you train.",
+          "Each exercise is a point for whoever lifted more. A tie is half a point each.",
+          "Assisted exercises are scored by the real load, so a pull up with help compares fairly.",
+          "The effort you log (reps in reserve, RIR) counts when two sets are close.",
+          "Your duel ends up in your history like any other workout."
+        ],
+        "note": "Free accounts can start one duel a week. Accepting a duel is always free. PRO removes the limit.",
+        "cta": {
+          "label": "Download on the App Store",
+          "href": "https://apps.apple.com/app/id6825331857"
+        },
+        "image": {
+          "screenshot": "active-duel",
+          "alt": "Live duel: You versus a friend, the score 0 to 1, and the friend's logged sets under each of yours."
+        }
+      },
+      {
+        "id": "progress",
+        "eyebrow": "Stay consistent",
+        "headline": "Reasons to come back tomorrow",
+        "subhead": "Streaks, challenges and clear feedback on what you did.",
+        "cards": [
+          {
+            "title": "Streak and points",
+            "text": "Train regularly and build a streak. The server counts it and awards points.",
+            "screenshot": "streaks",
+            "alt": "Streak of 12 days, week view and a points total."
+          },
+          {
+            "title": "Daily, weekly and monthly challenges",
+            "text": "Every day, week and month you get new challenges built from your own workouts.",
+            "screenshot": "streaks",
+            "alt": "Daily, weekly and monthly challenges with progress bars."
+          },
+          {
+            "title": "Muscle map and recovery",
+            "text": "See which muscles are recovered and which are still tired. Live fatigue meters show how much each muscle gets during a workout.",
+            "screenshot": "muscle-new",
+            "alt": "Body map in Recovery view with muscles colored by how recovered they are."
+          },
+          {
+            "title": "Weekly report",
+            "text": "Workouts, training days, sets, volume and time, compared with the week before.",
+            "screenshot": "weekly-report",
+            "alt": "Weekly report with workouts, sets, volume and time compared with the previous week."
+          },
+          {
+            "title": "Body weight tracking",
+            "text": "Log your body weight and see the trend over time.",
+            "screenshot": "weight-statitstics",
+            "alt": "Body weight statistics chart over time."
+          }
+        ]
+      },
+      {
+        "id": "pro",
+        "eyebrow": "LiftDuels PRO",
+        "headline": "Free to train. PRO when you want more.",
+        "subhead": "The app is free. PRO is optional, as a monthly or yearly subscription (the yearly plan has a free trial) or a lifetime purchase.",
+        "cards": [
+          {
+            "title": "Free",
+            "bullets": [
+              "Workout log, plans, rest timer and cardio",
+              "Accept duels and start one a week",
+              "Streak, points and challenges",
+              "Muscle map, live fatigue meters and weekly report",
+              "Body weight tracking and widgets"
+            ]
+          },
+          {
+            "title": "PRO",
+            "bullets": [
+              "Unlimited duels",
+              "All exercises of every ready made program",
+              "AI workout plans and an AI weekly review",
+              "Suggested weight and reps while you train, and a set by set review",
+              "Muscle recovery countdown and Train next"
+            ]
+          }
+        ],
+        "note": "AI features send your training data to our AI provider only after you agree in the app. Prices are shown in the app before you buy.",
+        "cta": {
+          "label": "Download on the App Store",
+          "href": "https://apps.apple.com/app/id6825331857"
+        },
+        "screenshot": "plan-with-ai",
+        "alt": "Plan with AI screen in LiftDuels PRO."
+      },
+      {
+        "id": "for-gyms",
+        "eyebrow": "For gyms",
+        "headline": "Own a gym? Run a 30 day pilot.",
+        "subhead": "Free pilot with a poster and QR code, 30 days of PRO as a gift for your members and a weekly Duel of the week for your Instagram.",
+        "inDevelopment": "Leaderboards per gym and aggregated gym statistics are in development.",
+        "cta": {
+          "label": "See the gym pilot",
+          "href": "/gyms/"
+        }
+      },
+      {
+        "id": "faq",
+        "headline": "Questions, answered",
+        "subhead": "Short answers about LiftDuels.",
+        "items": [
+          {
+            "q": "What is LiftDuels?",
+            "a": "LiftDuels is a workout tracker app for the gym. You log sets, reps and weight, follow your progress and challenge friends to strength duels where you both do the same workout and the score updates set by set. It is available on iOS, and an Android version is coming soon."
+          },
+          {
+            "q": "Is LiftDuels free?",
+            "a": "Yes, the app is free to download and use. LiftDuels PRO is optional and adds things like unlimited duels, AI workout plans and all ready made programs. PRO is available as a monthly or yearly subscription, with a free trial on the yearly plan, or as a lifetime purchase. Prices are shown in the app before you buy."
+          },
+          {
+            "q": "How does a strength duel work?",
+            "a": "You choose a workout and challenge a friend. When they accept, you both train the same exercises at the same time and log your own sets. Each exercise goes to whoever lifted more, and the duel score changes after every set. At the end you compare results."
+          },
+          {
+            "q": "Is the scoring fair if my friend is stronger?",
+            "a": "Duels compare what each person actually lifted in the same workout, so a stronger friend usually wins: there is no handicap. Assisted exercises are scored by the real load, and the effort you log (reps in reserve) decides when two sets are close. Duels are for fun and points only, there are no prizes."
+          },
+          {
+            "q": "Can I log workouts without internet?",
+            "a": "Yes. Logging a workout works offline. Features that need other people or the server, such as duels, the Wall and AI, need a connection."
+          },
+          {
+            "q": "Is there an Android app?",
+            "a": "Not yet. The Android app is in closed testing and is coming soon. We have no release date to share. The iOS app is on the App Store now."
+          },
+          {
+            "q": "Does LiftDuels suggest what weight to lift?",
+            "a": "Yes. It suggests weight and reps from your own history. Suggestions are only advice: they never change a plan or a workout by themselves. LiftDuels is for training and fitness, not medical advice."
+          },
+          {
+            "q": "What data do you collect, and can I delete my account?",
+            "a": "Analytics start only if you agree. AI features send data to our AI provider only after you agree in the app. You can delete your account and your data inside the app, in Settings, Account. Read the Privacy Policy for details."
+          },
+          {
+            "q": "Who can use LiftDuels?",
+            "a": "LiftDuels is for people aged 16 and over."
+          },
+          {
+            "q": "Can my gym use LiftDuels?",
+            "a": "Yes. We offer gyms a free 30 day pilot. See the gym page, or email support@liftduels.app."
+          }
+        ]
+      },
+      {
+        "id": "cta",
+        "headline": "Your next set has a rival.",
+        "subhead": "Download LiftDuels, log one workout and send your first challenge.",
+        "cta": {
+          "label": "Download on the App Store",
+          "href": "https://apps.apple.com/app/id6825331857"
+        },
+        "ctaSecondary": {
+          "label": "Android: coming soon",
+          "disabled": true
+        },
+        "note": "Free to use. For ages 16 and over."
+      }
+    ]
+  },
+  "gyms": {
+    "meta": {
+      "title": "LiftDuels for Gyms: Free 30 Day Pilot",
+      "description": "Free 30 day pilot for gyms: a QR poster per location, 30 days of PRO for your members and a weekly Duel of the week for your Instagram.",
+      "ogTitle": "LiftDuels for gyms: your members train against each other",
+      "ogDescription": "A free 30 day pilot with a QR poster, a gym code, PRO as a gift for members and weekly content for your Instagram.",
+      "twitterTitle": "LiftDuels for gyms: free 30 day pilot",
+      "twitterDescription": "Your members log workouts and challenge each other. Try it free for 30 days."
+    },
+    "sections": [
+      {
+        "id": "hero",
+        "eyebrow": "For gyms",
+        "headline": "Your members train against each other.",
+        "subhead": "LiftDuels is a workout log where friends challenge each other to the same workout. We offer a free 30 day pilot at your gym, or at the locations you choose.",
+        "cta": {
+          "label": "Book a 15 minute call",
+          "href": "mailto:support@liftduels.app?subject=LiftDuels%20gym%20pilot"
+        },
+        "proofLine": "Free pilot. Ends after 30 days if it does not work for you.",
+        "image": {
+          "screenshot": "active-duel",
+          "alt": "LiftDuels duel screen with two members training the same workout."
+        }
+      },
+      {
+        "id": "what-works-now",
+        "headline": "What already works in the app",
+        "subhead": "Live on iOS today. Android is coming soon.",
+        "cards": [
+          {
+            "title": "Duels",
+            "text": "Same workout, two phones, one winner. The score changes set by set.",
+            "screenshot": "active-duel",
+            "alt": "Live duel with the score and each player's sets."
+          },
+          {
+            "title": "Workout log",
+            "text": "Sets, reps, weight, rest timer and cardio. Works offline.",
+            "screenshot": "active-workout",
+            "alt": "A workout in progress with a rest timer."
+          },
+          {
+            "title": "Statistics for every member",
+            "text": "Progress per exercise, records, body weight, muscle recovery and a weekly report.",
+            "screenshot": "weekly-report",
+            "alt": "Weekly report with workouts, sets and volume."
+          },
+          {
+            "title": "Plans and programs",
+            "text": "Ready made programs and AI workout plans (PRO). The app suggests the next weight from the member's history.",
+            "screenshot": "plan-with-ai",
+            "alt": "Plan with AI screen."
+          },
+          {
+            "title": "Friends and the Wall",
+            "text": "Members add friends, invite them with a link and browse public workouts on the Wall.",
+            "screenshot": "wall",
+            "alt": "The Wall with workouts of other members."
+          },
+          {
+            "title": "Streak, points and challenges",
+            "text": "Streaks, points and daily, weekly and monthly challenges bring people back to the gym.",
+            "screenshot": "streaks",
+            "alt": "Streak, points and challenges."
+          }
+        ]
+      },
+      {
+        "id": "in-development",
+        "eyebrow": "In development",
+        "headline": "Built together with partner gyms",
+        "subhead": "These features do not exist yet. Our first partners help choose what comes first and get it first.",
+        "cards": [
+          {
+            "title": "Leaderboards per gym and location",
+            "text": "Members compete by location or across a whole network: who lifts the most, who trains the most, who holds the longest streak.",
+            "tag": "In development"
+          },
+          {
+            "title": "Aggregated gym statistics",
+            "text": "How many members train, how often, which exercises and machines are used most, per location. Aggregated only, opt in, with no personal data.",
+            "tag": "In development"
+          },
+          {
+            "title": "Certified trainers",
+            "text": "Your trainer builds a plan for a client and the client does it in the app. The trainer sees finished workouts and adjusts the plan.",
+            "tag": "In development"
+          },
+          {
+            "title": "Choosing your gym",
+            "text": "Members pick their gym and location in the app.",
+            "tag": "In development"
+          }
+        ]
+      },
+      {
+        "id": "pilot",
+        "eyebrow": "The pilot",
+        "headline": "What your gym gets",
+        "subhead": "30 days, free, no obligation.",
+        "cards": [
+          {
+            "title": "Free, no obligation",
+            "text": "The pilot costs nothing. If it does not deliver, we end it after 30 days."
+          },
+          {
+            "title": "A gift for members",
+            "text": "30 days of LiftDuels PRO for free with your gym's code: unlimited duels, AI plans and all programs."
+          },
+          {
+            "title": "Content for your Instagram",
+            "text": "Every week a Duel of the week from your gym: ready made posts and stories, no extra work for your team."
+          },
+          {
+            "title": "A say in what we build",
+            "text": "Leaderboards, gym statistics and the trainer tools are shaped by your needs."
+          }
+        ]
+      },
+      {
+        "id": "steps",
+        "headline": "How the pilot works",
+        "subhead": "Four weeks from poster to results.",
+        "cards": [
+          {
+            "step": "Week 0",
+            "title": "Setup",
+            "text": "We make a poster with a QR code and a separate code for each location, so we can see where people join most. You put it up at the entrance and in the locker room."
+          },
+          {
+            "step": "Weeks 1 to 4",
+            "title": "Duels",
+            "text": "Members install the app, add friends and challenge each other. Every week we publish a Duel of the week and tag your gym."
+          },
+          {
+            "step": "Week 4",
+            "title": "Results and a decision",
+            "text": "We send an overview per location: how many members joined and how many duels were played. Together we choose what to build first and whether to continue."
+          }
+        ]
+      },
+      {
+        "id": "ask",
+        "headline": "What we ask of your gym",
+        "bullets": [
+          "A poster with a QR code at the entrance and in the locker room of each pilot location.",
+          "One Instagram post or story about the pilot. We prepare the text and the image.",
+          "Permission to film a short training video, with the consent of members in the frame."
+        ]
+      },
+      {
+        "id": "contact",
+        "headline": "Next step: a 15 minute call",
+        "subhead": "Write to us and we will agree which locations join the pilot.",
+        "cta": {
+          "label": "Email support@liftduels.app",
+          "href": "mailto:support@liftduels.app?subject=LiftDuels%20gym%20pilot"
+        },
+        "note": "LiftDuels is on the App Store for iOS. The Android app is coming soon.",
+        "backLink": {
+          "label": "Back to the app",
+          "href": "/"
+        }
+      }
+    ]
+  }
+}

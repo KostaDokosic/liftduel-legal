@@ -1,0 +1,381 @@
+{
+ "images": {
+  "active-duel": {
+   "widths": [
+    360,
+    540,
+    720
+   ],
+   "aspect": 0.49,
+   "files": {
+    "360": {
+     "width": 360,
+     "height": 735,
+     "avif_kb": 11.1,
+     "webp_kb": 17
+    },
+    "540": {
+     "width": 540,
+     "height": 1102,
+     "avif_kb": 17.1,
+     "webp_kb": 27.2
+    },
+    "720": {
+     "width": 720,
+     "height": 1469,
+     "avif_kb": 21.9,
+     "webp_kb": 38.6
+    }
+   },
+   "description": "Live duel in progress: your sets against a friend, set by set, with the running score and a rest timer."
+  },
+  "duel": {
+   "widths": [
+    360,
+    540,
+    720
+   ],
+   "aspect": 0.49,
+   "files": {
+    "360": {
+     "width": 360,
+     "height": 735,
+     "avif_kb": 9.3,
+     "webp_kb": 13.8
+    },
+    "540": {
+     "width": 540,
+     "height": 1102,
+     "avif_kb": 14.5,
+     "webp_kb": 22.7
+    },
+    "720": {
+     "width": 720,
+     "height": 1469,
+     "avif_kb": 18.6,
+     "webp_kb": 30.2
+    }
+   },
+   "description": "Duel lobby waiting for the friend to accept, with a countdown and the workout both of you will do."
+  },
+  "home": {
+   "widths": [
+    360,
+    540,
+    720
+   ],
+   "aspect": 0.49,
+   "files": {
+    "360": {
+     "width": 360,
+     "height": 735,
+     "avif_kb": 12,
+     "webp_kb": 20.3
+    },
+    "540": {
+     "width": 540,
+     "height": 1102,
+     "avif_kb": 18.5,
+     "webp_kb": 32.4
+    },
+    "720": {
+     "width": 720,
+     "height": 1469,
+     "avif_kb": 24.1,
+     "webp_kb": 44.2
+    }
+   },
+   "description": "Home screen with the AI plan banner, a Duel a friend button and suggested workouts to start."
+  },
+  "active-workout": {
+   "widths": [
+    360,
+    540,
+    720
+   ],
+   "aspect": 0.49,
+   "files": {
+    "360": {
+     "width": 360,
+     "height": 735,
+     "avif_kb": 9.7,
+     "webp_kb": 14
+    },
+    "540": {
+     "width": 540,
+     "height": 1102,
+     "avif_kb": 15.1,
+     "webp_kb": 22.3
+    },
+    "720": {
+     "width": 720,
+     "height": 1469,
+     "avif_kb": 18.8,
+     "webp_kb": 30.1
+    }
+   },
+   "description": "Logging a workout: weight and reps for each set, warm-up sets, a rest timer and a Finish workout button."
+  },
+  "active-workout-2": {
+   "widths": [
+    360,
+    540,
+    720
+   ],
+   "aspect": 0.49,
+   "files": {
+    "360": {
+     "width": 360,
+     "height": 735,
+     "avif_kb": 11.2,
+     "webp_kb": 15.9
+    },
+    "540": {
+     "width": 540,
+     "height": 1102,
+     "avif_kb": 17.1,
+     "webp_kb": 25.8
+    },
+    "720": {
+     "width": 720,
+     "height": 1469,
+     "avif_kb": 22.4,
+     "webp_kb": 34.9
+    }
+   },
+   "description": "Active workout with a progression hint suggesting the next weight and reps, and one-tap Apply."
+  },
+  "exercises-statitstics": {
+   "widths": [
+    360,
+    540,
+    720
+   ],
+   "aspect": 0.49,
+   "files": {
+    "360": {
+     "width": 360,
+     "height": 735,
+     "avif_kb": 11,
+     "webp_kb": 16.3
+    },
+    "540": {
+     "width": 540,
+     "height": 1102,
+     "avif_kb": 16.5,
+     "webp_kb": 26
+    },
+    "720": {
+     "width": 720,
+     "height": 1469,
+     "avif_kb": 22.4,
+     "webp_kb": 36
+    }
+   },
+   "description": "Exercise statistics for the bench press: best set, estimated one-rep max and personal records."
+  },
+  "img_6550": {
+   "widths": [
+    360,
+    540,
+    720
+   ],
+   "aspect": 0.49,
+   "files": {
+    "360": {
+     "width": 360,
+     "height": 735,
+     "avif_kb": 10.4,
+     "webp_kb": 16.1
+    },
+    "540": {
+     "width": 540,
+     "height": 1102,
+     "avif_kb": 15.8,
+     "webp_kb": 25.7
+    },
+    "720": {
+     "width": 720,
+     "height": 1469,
+     "avif_kb": 20.6,
+     "webp_kb": 35.3
+    }
+   },
+   "description": "Challenges screen with daily and weekly goals, progress bars and completed badges."
+  },
+  "img_6553": {
+   "widths": [
+    360,
+    540,
+    720
+   ],
+   "aspect": 0.49,
+   "files": {
+    "360": {
+     "width": 360,
+     "height": 735,
+     "avif_kb": 10.9,
+     "webp_kb": 15.9
+    },
+    "540": {
+     "width": 540,
+     "height": 1102,
+     "avif_kb": 17.1,
+     "webp_kb": 25.8
+    },
+    "720": {
+     "width": 720,
+     "height": 1469,
+     "avif_kb": 21.7,
+     "webp_kb": 35.9
+    }
+   },
+   "description": "Duel in progress with a friend: your sets and theirs side by side, with who is ahead on each set."
+  },
+  "monthly-history": {
+   "widths": [
+    360,
+    540,
+    720
+   ],
+   "aspect": 0.49,
+   "files": {
+    "360": {
+     "width": 360,
+     "height": 735,
+     "avif_kb": 8.8,
+     "webp_kb": 12.3
+    },
+    "540": {
+     "width": 540,
+     "height": 1102,
+     "avif_kb": 13.4,
+     "webp_kb": 19.7
+    },
+    "720": {
+     "width": 720,
+     "height": 1469,
+     "avif_kb": 17,
+     "webp_kb": 27.2
+    }
+   },
+   "description": "Monthly training calendar highlighting the days you trained."
+  },
+  "muscle-new": {
+   "widths": [
+    360,
+    540,
+    720
+   ],
+   "aspect": 0.49,
+   "files": {
+    "360": {
+     "width": 360,
+     "height": 735,
+     "avif_kb": 7.2,
+     "webp_kb": 11.6
+    },
+    "540": {
+     "width": 540,
+     "height": 1102,
+     "avif_kb": 10.6,
+     "webp_kb": 19.1
+    },
+    "720": {
+     "width": 720,
+     "height": 1469,
+     "avif_kb": 14.4,
+     "webp_kb": 27
+    }
+   },
+   "description": "Muscle recovery map in the orange theme, with front and back views and recovery colours."
+  },
+  "plan-with-ai": {
+   "widths": [
+    360,
+    540,
+    720
+   ],
+   "aspect": 0.49,
+   "files": {
+    "360": {
+     "width": 360,
+     "height": 735,
+     "avif_kb": 13,
+     "webp_kb": 20.9
+    },
+    "540": {
+     "width": 540,
+     "height": 1102,
+     "avif_kb": 21.6,
+     "webp_kb": 33.5
+    },
+    "720": {
+     "width": 720,
+     "height": 1469,
+     "avif_kb": 28.2,
+     "webp_kb": 46.6
+    }
+   },
+   "description": "Plan with AI: pick your goal (build muscle, get stronger, lose fat, general fitness) and let the coach build the plan."
+  },
+  "streaks": {
+   "widths": [
+    360,
+    540,
+    720
+   ],
+   "aspect": 0.49,
+   "files": {
+    "360": {
+     "width": 360,
+     "height": 735,
+     "avif_kb": 8.4,
+     "webp_kb": 11.7
+    },
+    "540": {
+     "width": 540,
+     "height": 1102,
+     "avif_kb": 12.7,
+     "webp_kb": 18.9
+    },
+    "720": {
+     "width": 720,
+     "height": 1469,
+     "avif_kb": 16.3,
+     "webp_kb": 25.7
+    }
+   },
+   "description": "Streak card showing a 12 day streak, the week at a glance and total points."
+  },
+  "weekly-report": {
+   "widths": [
+    360,
+    540,
+    720
+   ],
+   "aspect": 0.49,
+   "files": {
+    "360": {
+     "width": 360,
+     "height": 735,
+     "avif_kb": 11.8,
+     "webp_kb": 19.2
+    },
+    "540": {
+     "width": 540,
+     "height": 1102,
+     "avif_kb": 19.6,
+     "webp_kb": 31
+    },
+    "720": {
+     "width": 720,
+     "height": 1469,
+     "avif_kb": 24.6,
+     "webp_kb": 42.3
+    }
+   },
+   "description": "Weekly report with workouts, sets, volume and time compared with the week before, plus an AI review button."
+  }
+ }
+}

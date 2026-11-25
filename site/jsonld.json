@@ -1,0 +1,352 @@
+{
+  "_readme": "Put each object in its own <script type=\"application/ld+json\"> in <head> (server rendered). Use landing.* on / and /sr/, gyms.* BreadcrumbList on /gyms/ and /sr/gyms/. Organization and WebSite go on every page. MobileApplication only on the two landing pages. FAQPage: Google no longer shows FAQ rich results (since May 2026), the markup is kept for other consumers (AI engines) and must match the visible FAQ text exactly. No aggregateRating, no review, no price. Offer price 0 is the free download, currency is a required field in schema.org and does not state a price of PRO. Replace the og image URL if the file name differs. Android: add to operatingSystem and a Google Play URL only after release. Re-validate in validator.schema.org.",
+  "shared": {
+    "Organization": {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "@id": "https://liftduels.app/#org",
+      "name": "LiftDuels",
+      "url": "https://liftduels.app/",
+      "logo": "https://liftduels.app/logo-512.png",
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "contactType": "customer support",
+          "email": "support@liftduels.app",
+          "availableLanguage": [
+            "en",
+            "sr"
+          ]
+        }
+      ]
+    },
+    "WebSite_en": {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "@id": "https://liftduels.app/#website",
+      "name": "LiftDuels",
+      "url": "https://liftduels.app/",
+      "inLanguage": "en",
+      "publisher": {
+        "@id": "https://liftduels.app/#org"
+      }
+    },
+    "WebSite_sr": {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "@id": "https://liftduels.app/sr/#website",
+      "name": "LiftDuels",
+      "url": "https://liftduels.app/sr/",
+      "inLanguage": "sr-Latn",
+      "publisher": {
+        "@id": "https://liftduels.app/#org"
+      }
+    }
+  },
+  "landing": {
+    "MobileApplication_en": {
+      "@context": "https://schema.org",
+      "@type": "MobileApplication",
+      "@id": "https://liftduels.app/#app",
+      "name": "LiftDuels",
+      "url": "https://liftduels.app/",
+      "description": "A fast gym log you can use offline. Log sets in seconds, then challenge a friend to a strength duel and watch the score change set by set.",
+      "applicationCategory": "HealthApplication",
+      "applicationSubCategory": "Fitness",
+      "operatingSystem": "iOS",
+      "downloadUrl": "https://apps.apple.com/app/id6825331857",
+      "installUrl": "https://apps.apple.com/app/id6825331857",
+      "inLanguage": [
+        "en",
+        "sr"
+      ],
+      "isAccessibleForFree": true,
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "description": "Free to download. Optional in app purchases (LiftDuels PRO)."
+      },
+      "audience": {
+        "@type": "PeopleAudience",
+        "suggestedMinAge": 16
+      },
+      "publisher": {
+        "@id": "https://liftduels.app/#org"
+      },
+      "image": "https://liftduels.app/og/liftduels-og.png"
+    },
+    "MobileApplication_sr": {
+      "@context": "https://schema.org",
+      "@type": "MobileApplication",
+      "@id": "https://liftduels.app/#app",
+      "name": "LiftDuels",
+      "url": "https://liftduels.app/sr/",
+      "description": "Brz dnevnik treninga koji radi i bez interneta. Beleži serije za nekoliko sekundi, pa izazovi prijatelja na dvoboj i prati rezultat seriju po seriju.",
+      "applicationCategory": "HealthApplication",
+      "applicationSubCategory": "Fitness",
+      "operatingSystem": "iOS",
+      "downloadUrl": "https://apps.apple.com/app/id6825331857",
+      "installUrl": "https://apps.apple.com/app/id6825331857",
+      "inLanguage": [
+        "en",
+        "sr"
+      ],
+      "isAccessibleForFree": true,
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "description": "Free to download. Optional in app purchases (LiftDuels PRO)."
+      },
+      "audience": {
+        "@type": "PeopleAudience",
+        "suggestedMinAge": 16
+      },
+      "publisher": {
+        "@id": "https://liftduels.app/#org"
+      },
+      "image": "https://liftduels.app/og/liftduels-og.png"
+    },
+    "FAQPage_en": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "@id": "https://liftduels.app/#faq",
+      "inLanguage": "en",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is LiftDuels?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "LiftDuels is a workout tracker app for the gym. You log sets, reps and weight, follow your progress and challenge friends to strength duels where you both do the same workout and the score updates set by set. It is available on iOS, and an Android version is coming soon."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is LiftDuels free?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, the app is free to download and use. LiftDuels PRO is optional and adds things like unlimited duels, AI workout plans and all ready made programs. PRO is available as a monthly or yearly subscription, with a free trial on the yearly plan, or as a lifetime purchase. Prices are shown in the app before you buy."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does a strength duel work?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You choose a workout and challenge a friend. When they accept, you both train the same exercises at the same time and log your own sets. Each exercise goes to whoever lifted more, and the duel score changes after every set. At the end you compare results."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is the scoring fair if my friend is stronger?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Scoring uses the work you actually did in the duel, based on weight and reps. Assisted exercises are scored by the real load, and the effort you log (reps in reserve) is used when two sets are close. Duels are for fun and points only, there are no prizes."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I log workouts without internet?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Logging a workout works offline. Features that need other people or the server, such as duels, the Wall and AI, need a connection."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is there an Android app?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Not yet. The Android app is in closed testing and is coming soon. We have no release date to share. The iOS app is on the App Store now."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does LiftDuels suggest what weight to lift?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. It suggests weight and reps from your own history. Suggestions are only advice: they never change a plan or a workout by themselves. LiftDuels is for training and fitness, not medical advice."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What data do you collect, and can I delete my account?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Analytics start only if you agree. AI features send data to our AI provider only after you agree in the app. You can delete your account and your data inside the app, in Settings, Account. Read the Privacy Policy for details."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Who can use LiftDuels?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "LiftDuels is for people aged 16 and over."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can my gym use LiftDuels?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. We offer gyms a free 30 day pilot. See the gym page, or email support@liftduels.app."
+          }
+        }
+      ]
+    },
+    "FAQPage_sr": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "@id": "https://liftduels.app/sr/#faq",
+      "inLanguage": "sr",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Šta je LiftDuels?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "LiftDuels je aplikacija za praćenje treninga u teretani. Beležiš serije, ponavljanja i kilažu, pratiš napredak i izazivaš prijatelje na dvoboje snage u kojima oboje radite isti trening, a rezultat se menja seriju po seriju. Dostupna je na iOS-u, a Android verzija stiže uskoro."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Da li je LiftDuels besplatan?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Da, aplikaciju možeš besplatno da preuzmeš i koristiš. LiftDuels PRO je opcion i dodaje, na primer, neograničene dvoboje, AI planove treninga i sve gotove programe. PRO je dostupan kao mesečna ili godišnja pretplata, sa probnim periodom na godišnjoj, ili kao doživotna kupovina. Cene vidiš u aplikaciji pre kupovine."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kako funkcioniše dvoboj snage?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Izabereš trening i izazoveš prijatelja. Kad prihvati, oboje radite iste vežbe u isto vreme i beležite svoje serije. Svaku vežbu dobija onaj ko je podigao više, a rezultat dvoboja se menja posle svake serije. Na kraju poredite rezultate."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Da li je bodovanje fer ako je prijatelj jači?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Bodovanje se zasniva na radu koji si stvarno uradio u dvoboju, to jest na kilaži i ponavljanjima. Vežbe sa asistencijom računaju se po stvarnom opterećenju, a napor koji uneseš (ponavljanja u rezervi) koristi se kad su dve serije blizu. Dvoboji su samo za zabavu i poene, nema nagrada."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Mogu li da beležim trening bez interneta?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Možeš. Beleženje treninga radi i bez interneta. Funkcije koje traže druge ljude ili server, kao što su dvoboji, Zid i AI, traže vezu."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Da li postoji Android aplikacija?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Još ne. Android aplikacija je u zatvorenom testiranju i stiže uskoro. Datum izlaska ne možemo da navedemo. iOS aplikacija je već na App Store-u."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Da li LiftDuels predlaže kolika da bude kilaža?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Da. Predlaže kilažu i ponavljanja na osnovu tvoje istorije. Predlozi su samo savet: nikad sami ne menjaju plan ni trening. LiftDuels služi za trening i kondiciju, a ne kao medicinski savet."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Koje podatke prikupljate i mogu li da obrišem nalog?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Analitika počinje tek ako se složiš. AI funkcije šalju podatke našem AI provajderu tek kad se složiš u aplikaciji. Nalog i sve podatke možeš da obrišeš u aplikaciji, u Podešavanja, Nalog. Detalje pročitaj u Politici privatnosti."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Ko može da koristi LiftDuels?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "LiftDuels je za osobe od 16 godina."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Može li moja teretana da koristi LiftDuels?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Može. Teretanama nudimo besplatan pilot od 30 dana. Pogledaj stranicu za teretane ili piši na support@liftduels.app."
+          }
+        }
+      ]
+    }
+  },
+  "gyms": {
+    "BreadcrumbList_en": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://liftduels.app/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "For gyms",
+          "item": "https://liftduels.app/gyms/"
+        }
+      ]
+    },
+    "BreadcrumbList_sr": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Početna",
+          "item": "https://liftduels.app/sr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Za teretane",
+          "item": "https://liftduels.app/sr/gyms/"
+        }
+      ]
+    },
+    "WebPage_en": {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "@id": "https://liftduels.app/gyms/#page",
+      "url": "https://liftduels.app/gyms/",
+      "name": "LiftDuels for Gyms: Free 30 Day Pilot",
+      "description": "Free 30 day pilot for gyms: a QR poster per location, 30 days of PRO for your members and a weekly Duel of the week for your Instagram.",
+      "inLanguage": "en",
+      "isPartOf": {
+        "@id": "https://liftduels.app/#website"
+      }
+    },
+    "WebPage_sr": {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "@id": "https://liftduels.app/sr/gyms/#page",
+      "url": "https://liftduels.app/sr/gyms/",
+      "name": "LiftDuels za teretane: besplatan pilot 30 dana",
+      "description": "Besplatan pilot od 30 dana za teretane: poster sa QR kodom po lokaciji, 30 dana PRO-a za članove i Dvoboj nedelje za vaš Instagram.",
+      "inLanguage": "sr-Latn",
+      "isPartOf": {
+        "@id": "https://liftduels.app/sr/#website"
+      }
+    }
+  }
+}

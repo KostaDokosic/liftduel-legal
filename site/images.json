@@ -1,0 +1,35 @@
+{
+  "landing": {
+    "hero": "active-duel",
+    "how-it-works": [
+      "active-workout",
+      "home",
+      "duel"
+    ],
+    "features": {
+      "0": "active-workout-2",
+      "1": "plan-with-ai",
+      "4": "exercises-statitstics"
+    },
+    "duels": "img_6553",
+    "progress": {
+      "0": "streaks",
+      "1": "img_6550",
+      "2": "muscle-new",
+      "3": "weekly-report"
+    }
+  },
+  "gyms": {
+    "fan": [
+      "muscle-new",
+      "active-duel",
+      "weekly-report"
+    ],
+    "minis": [
+      "active-workout",
+      "exercises-statitstics",
+      "monthly-history",
+      "img_6550"
+    ]
+  }
+}
