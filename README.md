@@ -12,5 +12,5 @@ When the texts change in a way users must agree to again, bump `LEGAL_VERSION` i
 
 - `invite/index.html`: landing page for friend invite links, `https://liftduels.app/invite/?u=<username>`. It opens `gymduels://invite/<username>` or sends the visitor to the store; no tracking, no external requests. `invite.html` redirects to it (older links).
 - `.well-known/apple-app-site-association`: iOS universal links for `/invite`. `.nojekyll` is needed so GitHub Pages serves `.well-known`.
-- `.well-known/assetlinks.json` (Android App Links) is added when the Play App Signing SHA-256 is known.
+- `.well-known/assetlinks.json`: Android App Links for `https://liftduels.app/invite` with two SHA-256 fingerprints, the Play app signing key and the upload key (Play Console, App signing). Add the new fingerprint if the signing key is ever changed.
 - The app side is documented in the app repo (`docs/invites.md`).
