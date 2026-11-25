@@ -5,9 +5,14 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex">
 <title>LiftDuel invite</title>
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="LiftDuel">
+<meta property="og:title" content="Join me on LiftDuel">
+<meta property="og:description" content="Train, compare every session and challenge friends to duels. Tap to accept the invite.">
+<meta name="description" content="Train, compare every session and challenge friends to duels.">
 <!--
   Friend invite landing page (LDK-91, docs/invites.md). Static, no tracking, no external requests.
-  Publish it next to the legal pages: https://kostadokosic.github.io/liftduel-legal/invite.html?u=<username>
+  Published with the legal pages as invite/index.html: https://liftduels.app/invite/?c=<invite code>
 -->
 <style>
   :root { color-scheme: dark light; }
@@ -38,20 +43,20 @@
 (function () {
   var PACKAGE = 'com.kostadokosicsteam.gymduels';
   var text = {
-    en: { title: function (n) { return n ? n + ' invited you to LiftDuel' : 'Join me on LiftDuel'; }, lead: 'Train, compare every session and challenge friends to duels.', open: 'Open in the app', ios: 'Get it on the App Store', android: 'Get it on Google Play', hint: 'New to LiftDuel? Install the app, then open this link again to send the friend request.' },
-    sr: { title: function (n) { return n ? n + ' te poziva na LiftDuel' : 'Pridruži mi se na LiftDuel-u'; }, lead: 'Treniraj, poredi svaki trening i izazivaj prijatelje na dvoboje.', open: 'Otvori u aplikaciji', ios: 'Preuzmi sa App Store-a', android: 'Preuzmi sa Google Play-a', hint: 'Prvi put na LiftDuel-u? Instaliraj aplikaciju, pa ponovo otvori ovaj link da pošalješ zahtev za prijateljstvo.' }
+    en: { title: function () { return 'Join me on LiftDuel'; }, lead: 'Train, compare every session and challenge friends to duels.', open: 'Open in the app', ios: 'Get it on the App Store', android: 'Get it on Google Play', hint: 'New to LiftDuel? Install the app, then open this link again to accept the invite.' },
+    sr: { title: function () { return 'Pridruži mi se na LiftDuel-u'; }, lead: 'Treniraj, poredi svaki trening i izazivaj prijatelje na dvoboje.', open: 'Otvori u aplikaciji', ios: 'Preuzmi sa App Store-a', android: 'Preuzmi sa Google Play-a', hint: 'Prvi put na LiftDuel-u? Instaliraj aplikaciju, pa ponovo otvori ovaj link da prihvatiš pozivnicu.' }
   };
   var lang = (navigator.language || 'en').toLowerCase().indexOf('sr') === 0 ? 'sr' : 'en';
   var t = text[lang];
   document.documentElement.lang = lang;
-  var name = (new URLSearchParams(location.search).get('u') || '').trim().slice(0, 24);
+  var name = (new URLSearchParams(location.search).get('c') || '').replace(/[^A-Za-z0-9]/g, '').slice(0, 64); // the invite code
   var title = document.getElementById('title');
-  title.textContent = t.title(name);
-  document.title = t.title(name);
+  title.textContent = t.title();
+  document.title = t.title();
   document.getElementById('lead').textContent = t.lead;
   var open = document.getElementById('open');
   open.textContent = t.open;
-  open.href = name ? 'gymduels://invite/' + encodeURIComponent(name) : 'gymduels://';
+  open.href = name ? 'gymduels://invite/' + name : 'gymduels://';
   var ios = document.getElementById('ios');
   var android = document.getElementById('android');
   ios.textContent = t.ios;
