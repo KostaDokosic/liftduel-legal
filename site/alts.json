@@ -1,0 +1,54 @@
+{
+  "active-duel": {
+    "en": "Live duel in LiftDuels: your sets next to your friend's sets, the running score and a rest timer.",
+    "sr": "Dvoboj uživo u LiftDuels-u: tvoje serije pored prijateljevih, rezultat i tajmer odmora."
+  },
+  "active-workout": {
+    "en": "Logging a workout: weight and reps for every set, warm-up sets and a rest timer.",
+    "sr": "Beleženje treninga: kilaža i ponavljanja za svaku seriju, zagrevanje i tajmer odmora."
+  },
+  "active-workout-2": {
+    "en": "A workout with a suggested weight and reps for the next set.",
+    "sr": "Trening sa predlogom kilaže i ponavljanja za sledeću seriju."
+  },
+  "home": {
+    "en": "Home screen with an AI plan banner, a Duel a friend button and suggested workouts.",
+    "sr": "Početni ekran sa AI planom, dugmetom za dvoboj sa prijateljem i predloženim treninzima."
+  },
+  "duel": {
+    "en": "Duel lobby waiting for your friend to accept, with a countdown and the workout you will both do.",
+    "sr": "Lobi dvoboja koji čeka da prijatelj prihvati, sa odbrojavanjem i treningom koji oboje radite."
+  },
+  "plan-with-ai": {
+    "en": "Plan with AI: choose your goal, experience and equipment.",
+    "sr": "Plan uz AI: izaberi cilj, iskustvo i opremu."
+  },
+  "exercises-statitstics": {
+    "en": "Exercise statistics for the bench press: best set, estimated one-rep max and progress.",
+    "sr": "Statistika vežbe (bench press): najbolja serija, procenjeni maksimum za jedno ponavljanje i napredak."
+  },
+  "img_6553": {
+    "en": "Duel in progress: your sets and your friend's sets side by side.",
+    "sr": "Dvoboj u toku: tvoje i prijateljeve serije jedna pored druge."
+  },
+  "streaks": {
+    "en": "Streak card with a 12 day streak, the week at a glance and total points.",
+    "sr": "Streak sa nizom od 12 dana, nedeljom na jedan pogled i ukupnim bodovima."
+  },
+  "img_6550": {
+    "en": "Challenges with daily and weekly goals, progress bars and completed badges.",
+    "sr": "Izazovi sa dnevnim i nedeljnim ciljevima, trakama napretka i završenim značkama."
+  },
+  "muscle-new": {
+    "en": "Muscle recovery map, front and back, showing which muscles are recovered.",
+    "sr": "Mapa oporavka mišića, spreda i otpozadi, pokazuje koji su mišići oporavljeni."
+  },
+  "weekly-report": {
+    "en": "Weekly report with workouts, sets, volume and time compared with the week before.",
+    "sr": "Nedeljni izveštaj sa treninzima, serijama, volumenom i vremenom u odnosu na prethodnu nedelju."
+  },
+  "monthly-history": {
+    "en": "Monthly training calendar with the days you trained highlighted.",
+    "sr": "Mesečni kalendar treninga sa istaknutim danima kada si trenirao."
+  }
+}

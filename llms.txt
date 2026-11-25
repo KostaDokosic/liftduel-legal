@@ -1,0 +1,15 @@
+# LiftDuels
+
+> LiftDuels is a workout tracker for the gym with strength duels: you log sets, reps and weight (offline too), then challenge a friend to the same workout and the score changes set by set. Free to use, optional PRO. On the iOS App Store now, Android coming soon. For ages 16 and over.
+
+## Pages
+- [Home](https://liftduels.app/): what LiftDuels does, how a duel works, PRO, FAQ
+- [Home (Srpski)](https://liftduels.app/sr/): isto na srpskom
+- [For gyms](https://liftduels.app/gyms/): the free 30 day pilot for gyms
+- [Za teretane](https://liftduels.app/sr/gyms/): besplatan pilot od 30 dana
+- [Support](https://liftduels.app/support.html)
+- [Privacy Policy](https://liftduels.app/privacy.html)
+- [Terms of Use](https://liftduels.app/terms.html)
+
+## Contact
+support@liftduels.app

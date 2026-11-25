@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /invite/
+Disallow: /invite.html
+
+Sitemap: https://liftduels.app/sitemap.xml

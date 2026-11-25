@@ -1,0 +1,490 @@
+{
+  "lang": "sr",
+  "common": {
+    "brand": "LiftDuels",
+    "skipLink": "Pređi na sadržaj",
+    "nav": {
+      "features": "Funkcije",
+      "duels": "Dvoboji",
+      "pro": "PRO",
+      "faq": "Pitanja",
+      "gyms": "Za teretane",
+      "download": "Preuzmi",
+      "language": "English",
+      "menuOpen": "Otvori meni",
+      "menuClose": "Zatvori meni"
+    },
+    "stores": {
+      "appStoreLabel": "Preuzmi na App Store-u",
+      "appStoreHref": "https://apps.apple.com/app/id6825331857",
+      "androidLabel": "Android: uskoro",
+      "androidNote": "Android aplikacija je u zatvorenom testiranju."
+    },
+    "cookieNote": "Bez kolačića i bez trackera na ovom sajtu.",
+    "footer": {
+      "tagline": "Isti trening. Dva telefona. Jedan pobednik.",
+      "columns": {
+        "product": "Proizvod",
+        "company": "Kompanija",
+        "legal": "Pravno"
+      },
+      "links": {
+        "home": "Početna",
+        "gyms": "Za teretane",
+        "support": "Podrška",
+        "privacy": "Politika privatnosti",
+        "terms": "Uslovi korišćenja",
+        "deleteAccount": "Obriši nalog"
+      },
+      "contactLabel": "Kontakt",
+      "contactEmail": "support@liftduels.app",
+      "ageNote": "LiftDuels je za osobe od 16 godina.",
+      "healthNote": "LiftDuels služi za trening i kondiciju, a ne kao medicinski savet. Pre novog programa treninga posavetuj se sa lekarom.",
+      "copyright": "LiftDuels"
+    },
+    "breadcrumbs": {
+      "home": "Početna",
+      "gyms": "Za teretane"
+    }
+  },
+  "landing": {
+    "meta": {
+      "title": "LiftDuels: dnevnik treninga i dvoboji snage",
+      "description": "Brz dnevnik treninga koji radi i bez interneta. Beleži serije za nekoliko sekundi, pa izazovi prijatelja na dvoboj i prati rezultat seriju po seriju.",
+      "ogTitle": "LiftDuels: beleži trening, izazovi prijatelja",
+      "ogDescription": "Isti trening. Dva telefona. Jedan pobednik. Brz dnevnik treninga sa dvobojima uživo, streakom, izazovima i mapom oporavka mišića.",
+      "twitterTitle": "LiftDuels: aplikacija za praćenje treninga sa dvobojima",
+      "twitterDescription": "Beleži svaku seriju za nekoliko sekundi. Izazovi prijatelja na isti trening i vidi ko pobeđuje."
+    },
+    "sections": [
+      {
+        "id": "hero",
+        "eyebrow": "Aplikacija za praćenje treninga u teretani",
+        "headline": "Isti trening. Dva telefona. Jedan pobednik.",
+        "subhead": "LiftDuels je brz dnevnik treninga sa takmičarskom stranom. Beleži svaku seriju za nekoliko sekundi, pa izazovi prijatelja i gledaj kako se rezultat menja seriju po seriju.",
+        "cta": {
+          "label": "Preuzmi na App Store-u",
+          "href": "https://apps.apple.com/app/id6825331857"
+        },
+        "ctaSecondary": {
+          "label": "Android: uskoro",
+          "disabled": true
+        },
+        "proofLine": "Besplatna za korišćenje. Beleženje radi i bez interneta. Na srpskom i engleskom.",
+        "image": {
+          "screenshot": "active-duel",
+          "alt": "Ekran dvoboja u LiftDuels: dva igrača, rezultat uživo i svaka serija istog treninga jedna pored druge."
+        }
+      },
+      {
+        "id": "tagline",
+        "headline": "Upiši seriju. Pošalji izazov. Vidi ko pobeđuje."
+      },
+      {
+        "id": "how-it-works",
+        "headline": "Od prve serije do prvog dvoboja",
+        "subhead": "Tri koraka, bez dugog podešavanja.",
+        "cards": [
+          {
+            "step": "1",
+            "title": "Beleži trening",
+            "text": "Kreni od plana, gotovog programa ili praznog treninga. Dodaj serije, ponavljanja i kilažu za nekoliko sekundi. Tajmer odmora radi umesto tebe.",
+            "screenshot": "active-workout",
+            "alt": "Trening u toku sa kilažom i ponavljanjima za svaku seriju i tajmerom odmora."
+          },
+          {
+            "step": "2",
+            "title": "Pozovi prijatelja",
+            "text": "Podeli svoj link za poziv. Kad prijatelj prihvati, postajete prijatelji i možete da se izazivate na dvoboje.",
+            "screenshot": "wall",
+            "alt": "Zid sa treninzima prijatelja, svaki sa dugmetima Start i Kopiraj u planove."
+          },
+          {
+            "step": "3",
+            "title": "Pokreni dvoboj",
+            "text": "Izaberi trening i izazovi prijatelja na njega. Oboje radite iste vežbe, a rezultat se menja posle svake serije.",
+            "screenshot": "duel",
+            "alt": "Ekran za podešavanje dvoboja: biraš trening i prijatelja koga izazivaš."
+          }
+        ]
+      },
+      {
+        "id": "features",
+        "headline": "Dnevnik treninga koji prati tvoj tempo",
+        "subhead": "Sve što ti treba od prvog zagrevanja do poslednje serije.",
+        "cards": [
+          {
+            "title": "Serije za nekoliko sekundi",
+            "text": "Kilaža, ponavljanja, serije zagrevanja i kardio blokovi. Tajmer odmora možeš da skratiš ili produžiš za 15 sekundi. Beleženje radi i bez interneta.",
+            "screenshot": "active-workout",
+            "alt": "Redovi serija sa kilažom i ponavljanjima i tajmer odmora koji teče."
+          },
+          {
+            "title": "Planovi i gotovi programi",
+            "text": "Napravi sopstvene planove ili kreni od gotovog programa. Biblioteka vežbi ima slike.",
+            "screenshot": "home",
+            "alt": "Početni ekran sa spiskom za početak treninga: dvoboj, prazan trening i planovi."
+          },
+          {
+            "title": "Predlozi iz tvoje istorije",
+            "text": "LiftDuels predlaže kilažu i ponavljanja za sledeću seriju na osnovu onoga što si ranije radio. Nikad sam ne menja plan ni trening.",
+            "screenshot": "active-workout-2",
+            "alt": "Ekran treninga sa predloženom kilažom i ponavljanjima za sledeću seriju."
+          },
+          {
+            "title": "Posebna istorija za svaku spravu",
+            "text": "Dodaj oznaku opreme, na primer marku ili teretanu, i svaka sprava ima svoju istoriju.",
+            "screenshot": "active-duel",
+            "alt": "Kartica vežbe sa dugmetom za dodavanje oznake opreme."
+          },
+          {
+            "title": "Statistika i rekordi",
+            "text": "Vidi najbolje serije, rekorde i napredak za svaku vežbu.",
+            "screenshot": "exercises-statitstics",
+            "alt": "Statistika vežbe sa najboljim serijama i rekordima."
+          },
+          {
+            "title": "Widgeti na početnom ekranu",
+            "text": "Streak, ova nedelja i ovaj mesec, na jedan pogled bez otvaranja aplikacije.",
+            "screenshot": "streaks",
+            "alt": "Kartica streaka sa brojem dana zaredom, najboljim nizom i poenima."
+          }
+        ]
+      },
+      {
+        "id": "duels",
+        "eyebrow": "Dvoboji",
+        "headline": "Izazovi prijatelja na isti trening",
+        "subhead": "Dvoje prijatelja radi iste vežbe u isto vreme. Svako beleži svoje serije. Rezultat se menja posle svake serije.",
+        "bullets": [
+          "Gledaj serije prijatelja kako se pojavljuju pored tvojih dok treniraš.",
+          "Svaka vežba je poen za onoga ko je podigao više. Nerešeno je pola poena za svakog.",
+          "Vežbe sa asistencijom računaju se po stvarnom opterećenju, pa je poređenje fer.",
+          "Napor koji uneseš (ponavljanja u rezervi, RIR) računa se kad su dve serije blizu.",
+          "Dvoboj ostaje u tvojoj istoriji kao svaki drugi trening."
+        ],
+        "note": "Besplatan nalog može da pokrene jedan dvoboj nedeljno. Prihvatanje dvoboja je uvek besplatno. PRO skida ograničenje.",
+        "cta": {
+          "label": "Preuzmi na App Store-u",
+          "href": "https://apps.apple.com/app/id6825331857"
+        },
+        "image": {
+          "screenshot": "active-duel",
+          "alt": "Dvoboj uživo: ti protiv prijatelja, rezultat 0 prema 1 i serije prijatelja ispod svake tvoje."
+        }
+      },
+      {
+        "id": "progress",
+        "eyebrow": "Budi dosledan",
+        "headline": "Razlozi da se sutra vratiš",
+        "subhead": "Streak, izazovi i jasna povratna informacija o tome šta si uradio.",
+        "cards": [
+          {
+            "title": "Streak i poeni",
+            "text": "Treniraj redovno i gradi niz treninga (streak). Server ga broji i dodeljuje poene.",
+            "screenshot": "streaks",
+            "alt": "Streak od 12 dana, pregled nedelje i ukupni poeni."
+          },
+          {
+            "title": "Dnevni, nedeljni i mesečni izazovi",
+            "text": "Svakog dana, nedelje i meseca dobijaš nove izazove napravljene od tvojih treninga.",
+            "screenshot": "streaks",
+            "alt": "Dnevni, nedeljni i mesečni izazovi sa trakama napretka."
+          },
+          {
+            "title": "Mapa mišića i oporavak",
+            "text": "Vidi koji su mišići oporavljeni, a koji su još umorni. Merači zamora uživo pokazuju koliko je svaki mišić opterećen tokom treninga.",
+            "screenshot": "muscle-new",
+            "alt": "Mapa tela u prikazu Oporavak, mišići obojeni prema tome koliko su oporavljeni."
+          },
+          {
+            "title": "Nedeljni izveštaj",
+            "text": "Treninzi, dani treninga, serije, volumen i vreme, u poređenju sa prethodnom nedeljom.",
+            "screenshot": "weekly-report",
+            "alt": "Nedeljni izveštaj sa treninzima, serijama, volumenom i vremenom u odnosu na prethodnu nedelju."
+          },
+          {
+            "title": "Praćenje telesne težine",
+            "text": "Unesi telesnu težinu i prati trend kroz vreme.",
+            "screenshot": "weight-statitstics",
+            "alt": "Grafikon statistike telesne težine kroz vreme."
+          }
+        ]
+      },
+      {
+        "id": "pro",
+        "eyebrow": "LiftDuels PRO",
+        "headline": "Besplatno za trening. PRO kad poželiš više.",
+        "subhead": "Aplikacija je besplatna. PRO je opcioni, kao mesečna ili godišnja pretplata (godišnja ima probni period) ili doživotna kupovina.",
+        "cards": [
+          {
+            "title": "Besplatno",
+            "bullets": [
+              "Dnevnik treninga, planovi, tajmer odmora i kardio",
+              "Prihvatanje dvoboja i jedan pokrenut nedeljno",
+              "Streak, poeni i izazovi",
+              "Mapa mišića, merači zamora uživo i nedeljni izveštaj",
+              "Praćenje telesne težine i widgeti"
+            ]
+          },
+          {
+            "title": "PRO",
+            "bullets": [
+              "Neograničeni dvoboji",
+              "Sve vežbe svakog gotovog programa",
+              "AI planovi treninga i AI nedeljni pregled",
+              "Predložena kilaža i ponavljanja tokom treninga i pregled serija po serija",
+              "Odbrojavanje oporavka mišića i Train next"
+            ]
+          }
+        ],
+        "note": "AI funkcije šalju tvoje podatke o treningu našem AI provajderu tek kad se složiš u aplikaciji. Cene vidiš u aplikaciji pre kupovine.",
+        "cta": {
+          "label": "Preuzmi na App Store-u",
+          "href": "https://apps.apple.com/app/id6825331857"
+        },
+        "screenshot": "plan-with-ai",
+        "alt": "Ekran Plan with AI u LiftDuels PRO."
+      },
+      {
+        "id": "for-gyms",
+        "eyebrow": "Za teretane",
+        "headline": "Imaš teretanu? Probaj pilot od 30 dana.",
+        "subhead": "Besplatan pilot sa posterom i QR kodom, 30 dana PRO-a kao poklon za članove i nedeljni Dvoboj nedelje za vaš Instagram.",
+        "inDevelopment": "Rang liste po teretani i zbirna statistika teretane su u razvoju.",
+        "cta": {
+          "label": "Pogledaj pilot za teretane",
+          "href": "/sr/gyms/"
+        }
+      },
+      {
+        "id": "faq",
+        "headline": "Pitanja i odgovori",
+        "subhead": "Kratki odgovori o LiftDuels-u.",
+        "items": [
+          {
+            "q": "Šta je LiftDuels?",
+            "a": "LiftDuels je aplikacija za praćenje treninga u teretani. Beležiš serije, ponavljanja i kilažu, pratiš napredak i izazivaš prijatelje na dvoboje snage u kojima oboje radite isti trening, a rezultat se menja seriju po seriju. Dostupna je na iOS-u, a Android verzija stiže uskoro."
+          },
+          {
+            "q": "Da li je LiftDuels besplatan?",
+            "a": "Da, aplikaciju možeš besplatno da preuzmeš i koristiš. LiftDuels PRO je opcion i dodaje, na primer, neograničene dvoboje, AI planove treninga i sve gotove programe. PRO je dostupan kao mesečna ili godišnja pretplata, sa probnim periodom na godišnjoj, ili kao doživotna kupovina. Cene vidiš u aplikaciji pre kupovine."
+          },
+          {
+            "q": "Kako funkcioniše dvoboj snage?",
+            "a": "Izabereš trening i izazoveš prijatelja. Kad prihvati, oboje radite iste vežbe u isto vreme i beležite svoje serije. Svaku vežbu dobija onaj ko je podigao više, a rezultat dvoboja se menja posle svake serije. Na kraju poredite rezultate."
+          },
+          {
+            "q": "Da li je bodovanje fer ako je prijatelj jači?",
+            "a": "Dvoboj poredi šta je svako zaista podigao u istom treningu, pa jači prijatelj obično pobeđuje: nema hendikepa. Vežbe sa pomoći boduju se po stvarnom opterećenju, a uloženi napor (ponavljanja u rezervi) odlučuje kad su dve serije blizu. Dvoboji su za zabavu i poene, nema nagrada."
+          },
+          {
+            "q": "Mogu li da beležim trening bez interneta?",
+            "a": "Možeš. Beleženje treninga radi i bez interneta. Funkcije koje traže druge ljude ili server, kao što su dvoboji, Zid i AI, traže vezu."
+          },
+          {
+            "q": "Da li postoji Android aplikacija?",
+            "a": "Još ne. Android aplikacija je u zatvorenom testiranju i stiže uskoro. Datum izlaska ne možemo da navedemo. iOS aplikacija je već na App Store-u."
+          },
+          {
+            "q": "Da li LiftDuels predlaže kolika da bude kilaža?",
+            "a": "Da. Predlaže kilažu i ponavljanja na osnovu tvoje istorije. Predlozi su samo savet: nikad sami ne menjaju plan ni trening. LiftDuels služi za trening i kondiciju, a ne kao medicinski savet."
+          },
+          {
+            "q": "Koje podatke prikupljate i mogu li da obrišem nalog?",
+            "a": "Analitika počinje tek ako se složiš. AI funkcije šalju podatke našem AI provajderu tek kad se složiš u aplikaciji. Nalog i sve podatke možeš da obrišeš u aplikaciji, u Podešavanja, Nalog. Detalje pročitaj u Politici privatnosti."
+          },
+          {
+            "q": "Ko može da koristi LiftDuels?",
+            "a": "LiftDuels je za osobe od 16 godina."
+          },
+          {
+            "q": "Može li moja teretana da koristi LiftDuels?",
+            "a": "Može. Teretanama nudimo besplatan pilot od 30 dana. Pogledaj stranicu za teretane ili piši na support@liftduels.app."
+          }
+        ]
+      },
+      {
+        "id": "cta",
+        "headline": "Tvoja sledeća serija ima rivala.",
+        "subhead": "Preuzmi LiftDuels, zabeleži jedan trening i pošalji prvi izazov.",
+        "cta": {
+          "label": "Preuzmi na App Store-u",
+          "href": "https://apps.apple.com/app/id6825331857"
+        },
+        "ctaSecondary": {
+          "label": "Android: uskoro",
+          "disabled": true
+        },
+        "note": "Besplatno za korišćenje. Za osobe od 16 godina."
+      }
+    ]
+  },
+  "gyms": {
+    "meta": {
+      "title": "LiftDuels za teretane: besplatan pilot 30 dana",
+      "description": "Besplatan pilot od 30 dana za teretane: poster sa QR kodom po lokaciji, 30 dana PRO-a za članove i Dvoboj nedelje za vaš Instagram.",
+      "ogTitle": "LiftDuels za teretane: članovi treniraju jedni protiv drugih",
+      "ogDescription": "Besplatan pilot od 30 dana sa posterom i QR kodom, kodom teretane, PRO-om kao poklonom za članove i nedeljnim sadržajem za Instagram.",
+      "twitterTitle": "LiftDuels za teretane: besplatan pilot 30 dana",
+      "twitterDescription": "Vaši članovi beleže treninge i izazivaju se. Probajte besplatno 30 dana."
+    },
+    "sections": [
+      {
+        "id": "hero",
+        "eyebrow": "Za teretane",
+        "headline": "Vaši članovi treniraju jedni protiv drugih.",
+        "subhead": "LiftDuels je dnevnik treninga u kom prijatelji izazivaju jedni druge na isti trening. Nudimo besplatan pilot od 30 dana u vašoj teretani ili na lokacijama koje izaberete.",
+        "cta": {
+          "label": "Zakaži razgovor od 15 minuta",
+          "href": "mailto:support@liftduels.app?subject=LiftDuels%20pilot%20za%20teretanu"
+        },
+        "proofLine": "Besplatan pilot. Završava se posle 30 dana ako ne daje rezultat.",
+        "image": {
+          "screenshot": "active-duel",
+          "alt": "Ekran dvoboja u LiftDuels sa dva člana koji rade isti trening."
+        }
+      },
+      {
+        "id": "what-works-now",
+        "headline": "Šta već radi u aplikaciji",
+        "subhead": "Aktivno na iOS-u danas. Android stiže uskoro.",
+        "cards": [
+          {
+            "title": "Dvoboji",
+            "text": "Isti trening, dva telefona, jedan pobednik. Rezultat se menja serija po serija.",
+            "screenshot": "active-duel",
+            "alt": "Dvoboj uživo sa rezultatom i serijama oba igrača."
+          },
+          {
+            "title": "Dnevnik treninga",
+            "text": "Serije, ponavljanja, kilaža, tajmer odmora i kardio. Radi i bez interneta.",
+            "screenshot": "active-workout",
+            "alt": "Trening u toku sa tajmerom odmora."
+          },
+          {
+            "title": "Statistika svakog člana",
+            "text": "Napredak po vežbi, rekordi, telesna težina, oporavak mišića i nedeljni izveštaj.",
+            "screenshot": "weekly-report",
+            "alt": "Nedeljni izveštaj sa treninzima, serijama i volumenom."
+          },
+          {
+            "title": "Planovi i programi",
+            "text": "Gotovi programi i AI planovi treninga (PRO). Aplikacija predlaže sledeću kilažu na osnovu istorije člana.",
+            "screenshot": "plan-with-ai",
+            "alt": "Ekran Plan with AI."
+          },
+          {
+            "title": "Prijatelji i Zid",
+            "text": "Članovi dodaju prijatelje, pozivaju ih linkom i pregledaju javne treninge na Zidu.",
+            "screenshot": "wall",
+            "alt": "Zid sa treninzima drugih članova."
+          },
+          {
+            "title": "Streak, poeni i izazovi",
+            "text": "Streak, poeni i dnevni, nedeljni i mesečni izazovi vraćaju ljude u teretanu.",
+            "screenshot": "streaks",
+            "alt": "Streak, poeni i izazovi."
+          }
+        ]
+      },
+      {
+        "id": "in-development",
+        "eyebrow": "U razvoju",
+        "headline": "Gradimo zajedno sa partnerima",
+        "subhead": "Ove funkcije još ne postoje. Prvi partneri biraju šta dolazi prvo i dobijaju ih prvi.",
+        "cards": [
+          {
+            "title": "Rang liste po teretani i lokaciji",
+            "text": "Članovi se takmiče na nivou lokacije ili cele mreže: ko je najjači, ko najviše trenira, ko drži najduži streak.",
+            "tag": "U razvoju"
+          },
+          {
+            "title": "Zbirna statistika za teretanu",
+            "text": "Koliko članova trenira, koliko često, koje vežbe i sprave su najtraženije, po lokaciji. Samo zbirno, uz pristanak članova, bez ličnih podataka.",
+            "tag": "U razvoju"
+          },
+          {
+            "title": "Sertifikovani treneri",
+            "text": "Vaš trener pravi plan za klijenta, a klijent ga radi u aplikaciji. Trener vidi odrađene treninge i prilagođava plan.",
+            "tag": "U razvoju"
+          },
+          {
+            "title": "Izbor teretane",
+            "text": "Članovi u aplikaciji biraju svoju teretanu i lokaciju.",
+            "tag": "U razvoju"
+          }
+        ]
+      },
+      {
+        "id": "pilot",
+        "eyebrow": "Pilot",
+        "headline": "Šta vaša teretana dobija",
+        "subhead": "30 dana, besplatno, bez obaveze.",
+        "cards": [
+          {
+            "title": "Besplatno, bez obaveze",
+            "text": "Pilot ne košta ništa. Ako ne daje rezultat, završavamo ga posle 30 dana."
+          },
+          {
+            "title": "Poklon za članove",
+            "text": "30 dana LiftDuels PRO-a besplatno uz kod teretane: neograničeni dvoboji, AI planovi i svi programi."
+          },
+          {
+            "title": "Sadržaj za Instagram",
+            "text": "Svake nedelje Dvoboj nedelje iz vaše teretane: gotove objave i story, bez dodatnog posla za vaš tim."
+          },
+          {
+            "title": "Reč u razvoju",
+            "text": "Rang liste, statistika teretane i trenerski deo prave se prema vašim potrebama."
+          }
+        ]
+      },
+      {
+        "id": "steps",
+        "headline": "Kako izgleda pilot",
+        "subhead": "Četiri nedelje od postera do rezultata.",
+        "cards": [
+          {
+            "step": "Nedelja 0",
+            "title": "Postavljanje",
+            "text": "Pravimo poster sa QR kodom i poseban kod za svaku lokaciju, da vidimo gde se ljudi najviše uključuju. Vi ga okačite na ulazu i u svlačionici."
+          },
+          {
+            "step": "Nedelje 1 do 4",
+            "title": "Dvoboji",
+            "text": "Članovi instaliraju aplikaciju, dodaju prijatelje i izazivaju se. Svake nedelje objavljujemo Dvoboj nedelje i označavamo vašu teretanu."
+          },
+          {
+            "step": "Nedelja 4",
+            "title": "Rezultati i dogovor",
+            "text": "Šaljemo pregled po lokaciji: koliko se članova pridružilo i koliko je dvoboja odigrano. Zajedno biramo šta gradimo prvo i da li nastavljamo."
+          }
+        ]
+      },
+      {
+        "id": "ask",
+        "headline": "Šta tražimo od vaše teretane",
+        "bullets": [
+          "Poster sa QR kodom na ulazu i u svlačionici svake lokacije u pilotu.",
+          "Jednu objavu ili story na vašem Instagramu o pilotu. Mi pripremamo tekst i sliku.",
+          "Dozvolu da snimimo kratak video treninga, uz saglasnost članova u kadru."
+        ]
+      },
+      {
+        "id": "contact",
+        "headline": "Sledeći korak: razgovor od 15 minuta",
+        "subhead": "Pišite nam pa dogovaramo koje lokacije ulaze u pilot.",
+        "cta": {
+          "label": "Piši na support@liftduels.app",
+          "href": "mailto:support@liftduels.app?subject=LiftDuels%20pilot%20za%20teretanu"
+        },
+        "note": "LiftDuels je na App Store-u za iOS. Android aplikacija stiže uskoro.",
+        "backLink": {
+          "label": "Nazad na aplikaciju",
+          "href": "/sr/"
+        }
+      }
+    ]
+  }
+}
