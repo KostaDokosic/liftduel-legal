@@ -1,0 +1,13 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.kostadokosicsteam.gymduels",
+      "sha256_cert_fingerprints": [
+        "AD:CA:74:1D:E3:12:24:98:03:CD:4D:D9:2A:1F:59:71:BD:3E:06:29:64:23:7B:43:90:BA:59:EA:64:7F:99:DC",
+        "38:D2:D2:75:47:74:FE:03:3C:35:69:EF:D1:B1:31:44:BC:A3:61:B5:80:A5:65:61:41:1B:53:B1:41:3E:4A:A2"
+      ]
+    }
+  }
+]
